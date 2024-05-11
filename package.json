@@ -27,7 +27,7 @@
         "typescript": "^5.2.2"
     },
     "scripts": {
-        "build": "ray build -e public",
+        "build": "ray build --output public",
         "dev": "ray develop",
         "fix-lint": "ray lint --fix",
         "lint": "ray lint",
